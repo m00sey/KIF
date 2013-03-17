@@ -38,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		019293CC16F656B40050DB8C /* KIF.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KIF.podspec; sourceTree = SOURCE_ROOT; };
 		39160B1013D1E6BB00311E38 /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadableCategory.h; sourceTree = "<group>"; };
 		AAB07268139719AC008AF393 /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB0726B139719AC008AF393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +115,7 @@
 		AAB0726E139719AC008AF393 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				019293CC16F656B40050DB8C /* KIF.podspec */,
 				AAB0728113971A63008AF393 /* KIF-Prefix.pch */,
 			);
 			name = "Supporting Files";
