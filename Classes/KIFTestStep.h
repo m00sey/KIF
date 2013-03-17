@@ -500,4 +500,21 @@ typedef enum {
  */
 + (id)stepToWaitForFirstResponderWithAccessibilityLabel:(NSString *)label;
 
+/*!
+ @method stepToClearTextFromViewWithAccessibilityLabel:traits:expectedResult:
+ @abstract A step that clears any existing text from a text field with the given label.
+ @discussion This step will get the view with the specified label, and if of type UITextField, clears the input character by character.
+ @param label Accessibility label of the text field.
+ @param traits The accessibility traits of the element to type into. Elements that do not include at least these traits are ignored.
+ @param expectedResult What the text value should be after entry, including any formatting done by the field.
+ */
++ (id)stepToClearTextFromViewWithAccessibilityLabel:(NSString *)label traits:(UIAccessibilityTraits)traits expectedResult:(NSString *)expectedResult;
+
+/*!
+ @method stepToClearTextFromViewWithAccessibilityLabel:
+ @abstract A step that clears any existing text from a text field with the given label.
+ @discussion This step will get the view with the specified label, and if of type UITextField, clears the input character by character.
+ @param label Accessibility label of the text field.
+*/
++ (id)stepToClearTextFromViewWithAccessibilityLabel:(NSString *)label;
 @end
